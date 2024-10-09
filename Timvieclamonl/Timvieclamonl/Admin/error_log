@@ -1,0 +1,53 @@
+[06-Oct-2024 08:49:42 UTC] PHP Warning:  require_once(/home/mxnhcsinhthanh/xvietnam.lolAdmin/header.php): failed to open stream: No such file or directory in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 4
+[06-Oct-2024 08:49:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mxnhcsinhthanh/xvietnam.lolAdmin/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 4
+[06-Oct-2024 08:55:20 UTC] PHP Notice:  Undefined index: name in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 59
+[06-Oct-2024 08:55:20 UTC] PHP Notice:  Undefined index: lamviec in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 61
+[06-Oct-2024 08:55:20 UTC] PHP Notice:  Undefined index: thue in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 62
+[06-Oct-2024 08:55:40 UTC] PHP Notice:  Undefined index: lamviec in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 61
+[06-Oct-2024 08:55:40 UTC] PHP Notice:  Undefined index: thue in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 62
+[06-Oct-2024 08:55:56 UTC] PHP Notice:  Undefined index: lamviec in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 61
+[06-Oct-2024 08:55:56 UTC] PHP Notice:  Undefined index: thue in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 62
+[06-Oct-2024 08:57:44 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 62
+[06-Oct-2024 08:57:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 62
+[06-Oct-2024 08:57:44 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 64
+[06-Oct-2024 08:57:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 64
+[06-Oct-2024 08:57:53 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 63
+[06-Oct-2024 08:57:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 63
+[06-Oct-2024 08:57:53 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 65
+[06-Oct-2024 08:57:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 65
+[06-Oct-2024 08:57:55 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 63
+[06-Oct-2024 08:57:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 63
+[06-Oct-2024 08:57:55 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 65
+[06-Oct-2024 08:57:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 65
+[06-Oct-2024 08:57:56 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 63
+[06-Oct-2024 08:57:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 63
+[06-Oct-2024 08:57:56 UTC] PHP Notice:  Undefined variable: order in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 65
+[06-Oct-2024 08:57:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlykhachhang.php on line 65
+[06-Oct-2024 12:49:01 UTC] PHP Notice:  Undefined index: name in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 72
+[06-Oct-2024 12:49:02 UTC] PHP Notice:  Undefined index: name in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 72
+[06-Oct-2024 12:49:06 UTC] PHP Notice:  Undefined index: name in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 72
+[06-Oct-2024 14:10:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/caidatweb.php on line 26
+[06-Oct-2024 14:12:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/caidatweb.php on line 29
+[06-Oct-2024 14:12:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/caidatweb.php on line 29
+[06-Oct-2024 14:45:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 38
+[06-Oct-2024 14:46:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 38
+[06-Oct-2024 14:46:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 38
+[06-Oct-2024 14:46:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 38
+[06-Oct-2024 14:47:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 39
+[06-Oct-2024 14:47:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 39
+[06-Oct-2024 14:47:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 39
+[06-Oct-2024 14:49:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/quanlyjob.php on line 38
+[07-Oct-2024 12:09:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 56
+[07-Oct-2024 17:03:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 56
+[08-Oct-2024 10:53:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 56
+[08-Oct-2024 10:53:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php:1) in /home/mxnhcsinhthanh/xvietnam.lol/Admin/editkhachhang.php on line 56
+[08-Oct-2024 11:01:11 UTC] PHP Notice:  Undefined index: title in /home/mxnhcsinhthanh/xvietnam.lol/Admin/caidatnganhang.php on line 47
+[08-Oct-2024 11:04:26 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/mxnhcsinhthanh/xvietnam.lol/Admin/caidatnganhang.php on line 22
+[08-Oct-2024 13:24:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 13:24:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 13:24:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 13:28:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 16:31:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 16:31:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 16:32:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2
+[08-Oct-2024 16:32:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/mxnhcsinhthanh/xvietnam.lol/Admin/header.php on line 2

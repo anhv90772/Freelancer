@@ -1,0 +1,174 @@
+<?php
+session_start();
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) . '/ketnoi/database.php');
+if (isset($_SESSION['user'])) {
+    // Nếu đã đăng nhập, chuyển hướng tới home.php
+    header('Location: home.php');
+    exit();
+}
+?>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Việt Nam - Thuê Freelancer trực tuyến</title>
+    <link rel="stylesheet" href="/giaodienchualogin/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="/giaodienchualogin/cssgiaodiendautien.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="adanluc">
+            <div class="logo">
+                <i style=" font-size: 30px; color:#29b2fe;" class="fa-brands fa-phoenix-framework"></i>
+                <a href="#">Freelancer</a>
+            </div>
+            <div class="adande">
+                <div class="ahovericon">
+                    <a class="t" href="/client/login.php">Thuê Freelancer</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <ul class="dropdown">
+                        <li><a href="/client/login.php">Theo kỹ năng (Tìm một freelancer với kỹ năng cụ thể)</a></li>
+                        <li><a href="/client/login.php">Theo vị trí (Tìm kiếm freelancer dựa trên vị trí và múi giờ của họ)</a></li>
+                        <li><a href="/client/login.php">Theo lĩnh vực (Tìm kiếm freelancer phù hợp theo dự án)</a></li>
+                    </ul>
+                </div>
+            <div class="ahovericon">
+                <a  class="t" href="/client/login.php">Tìm việc</a>
+                <i class="fa-solid fa-angle-down"></i>
+                <ul class="dropdown">
+                    <li><a href="/client/login.php">Theo kỹ năng (Tìm kiếm công việc đòi hỏi kỹ năng cụ thể)</a></li>
+                    <li><a href="/client/login.php">Việc làm nổi bật (Danh sách các dụ án nổi bật)</a></li>
+                    <li><a href="/client/login.php">Tìm cuộc thi (Các cuộc thi dành cho người làm việc tự do)</a></li>
+                </ul>
+            </div>
+            
+            <div class="ahovericon">
+                <a class="t" href="/client/login.php">Giải pháp</a>
+                <i class="fa-solid fa-angle-down"></i>
+                <ul class="dropdown">
+                    <li><a href="/client/login.php">Doanh nghiệp</a></li>
+                    <li><a href="/client/login.php">Việc làm tại địa phương</a></li>
+                    <li><a href="/client/login.php">Dịch vụ thực địa</a></li>
+
+
+                </ul>
+            </div>
+            </div>
+        </div>
+            <div class="nav-links">
+                <a href="/client/login.php">Đăng nhập</a>
+                <a href="/client/register.php">Đăng ký</a>
+                <button class="a2" onclick="location.href='/client/login.php'">Đăng một dự án</button>
+            </div>
+        </div>
+    </header>
+    <div class="a3">
+        <img  class = "a11" src="/giaodienchualogin/a111.jpg" alt="" />
+        <div class="a3-1">
+            <div class="adau1">
+                <a class="adau1-1">Kết nối với các freelancer tài năng cho mọi nhu cầu công việc trực tuyến.</a>
+                <div class="adau1-2">
+                <a >Nơi kết nối hàng triệu freelancer tài năng.</a>
+                <br>
+                <a >Dịch vụ đa dạng cho mọi lĩnh vực công việc.</a>
+                <br>
+                <a >Chất lượng đảm bảo với đội ngũ chuyên nghiệp.</a>
+                <br>
+                <a >Giải pháp nhanh chóng và hiệu quả cho mọi dự án.</a>
+            </div>
+            <button class="btn pink" onclick="location.href='/client/register.php'">Thuê freelancer</button>
+            <button class="btn" onclick="location.href='/client/login.php'">Kiếm tiền từ việc freelance</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="a9">
+<div class="a3">
+    <img src="https://media-lab-brains.as-1.co.jp/wp/wp-content/uploads/2024/04/12154459/a892f52101e127c1c715f380ad8b46de-scaled.jpg" alt="" />
+    <div class="a3-1">
+        <p class="a3-2">Biến ý tưởng thành hiện thực</p>
+        <br>
+        <p class="a3-3">với Freelancer</p>
+        <div class="a3-7">
+        <div class="a3-4">
+            <p class="a3-5">Tài năng tốt nhất</p>
+            <p class="a3-6">Khám phá những chuyên gia đáng tin cậy bằng cách khám phá danh mục đầu tư của họ và đắm mình vào phản hồi được chia sẻ trên hồ sơ của họ.</p>
+        </div>
+        <div class="a3-4">
+            <p class="a3-5">Đấu thầu nhanh</p>
+            <p class="a3-6">Nhận báo giá nhanh chóng, không ràng buộc từ những người làm việc tự do lành nghề. 80% công việc nhận được giá thầu trong vòng 60 giây. Ý tưởng của bạn chỉ cách hiện thực trong chốc lát.</p>
+        </div>
+    </div>
+    <div class="a3-8">
+        <div class="a3-4">
+            <p class="a3-5">Công việc chất lượng</p>
+            <p class="a3-6">Với hơn 60 triệu chuyên gia trong danh sách tuyển dụng của Freelancer, bạn sẽ tìm thấy những nhân tài chất lượng để hoàn thành công việc bạn cần.</p>
+        </div>
+        <div class="a3-4">
+            <p class="a3-5">Hãy kiểm soát</p>
+            <p class="a3-6">Luôn cập nhật khi đang di chuyển. Trò chuyện với người làm việc tự do và nhận thông tin cập nhật theo thời gian thực bằng ứng dụng di động của chúng tôi. Mọi lúc, mọi nơi.</p>
+        </div>
+    </div>
+    <div class="a3-8">
+        <div class="a3-4">
+            <p class="a3-5">Dịch vụ linh hoạt</p>
+            <p class="a3-6">Tùy chỉnh dự án của bạn theo ý muốn. Freelancer cung cấp các loại đơn vị đa dạng từ công việc rút ngắn thời hạn dự án, phù hợp với mọi yêu cầu.</p>
+        </div>
+        <div class="a3-4">
+            <p class="a3-5">Bảo mật thanh toán</p>
+            <p class="a3-6">Thanh toán an toàn với ký tự hệ thống của chúng tôi. Bạn chỉ trả tiền khi hoàn thành hài lòng với kết quả, đảm bảo an tâm tuyệt đối cho cả hai.</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="a3">
+    <img src="https://www.f-cdn.com/assets/main/en/assets/home/global-talent/global-talent-bg-ld.jpg" alt="" />
+    <div class="a3-1">
+        <div class="a12">
+        <div>
+        <p class="a3-2">Chạm vào một</p>
+        <br>
+        <p class="a3-3">Mạng lưới an toàn</p>
+        <div class="a3-7">
+        <div class="a3-4">
+            <p class="a3-5">Đăng việc làm của bạn</p>
+            <p class="a3-6">Miễn phí và dễ dàng! Nhận nhiều giá thầu cạnh tranh phù hợp với ngân sách của bạn chỉ trong vài phút. Bắt đầu biến ước mơ của bạn thành hiện thực.</p>
+        </div>
+        <div class="a3-4">
+            <p class="a3-5">Chọn người làm việc tự do</p>
+            <p class="a3-6">Không có công việc nào quá lớn hoặc phức tạp. Chúng tôi có những người làm việc tự do cho các công việc ở mọi quy mô hoặc ngân sách, trên 2700+ kỹ năng. Hãy để tài năng của chúng tôi biến ý tưởng của bạn thành hiện thực.</p>
+        </div>
+    </div>
+    <div class="a3-9">
+        <div class="a3-4">
+            <p class="a3-5">Thanh toán an toàn</p>
+            <p class="a3-6">Chỉ trả tiền cho công việc khi bạn hoàn toàn hài lòng với kết quả. Hệ thống thanh toán theo mốc của chúng tôi bảo vệ bạn trong mọi bước.</p>
+        </div>
+        <div class="a3-4">
+            <p class="a3-5">Chúng tôi ở đây để giúp bạn</p>
+            <p class="a3-6"> lòng với kết quả. Hệ thống thanh toán theo mốc của chúng tôi bảo vệ bạn trong mọi bước.
+                Chúng tôi ở đây để giúp bạn
+                Thời gian của bạn rất quý báu. Hãy để đội ngũ tuyển dụng và phi công chuyên gia của chúng tôi giúp bạn tiết kiệm thời gian tìm kiếm nhân tài, thậm chí quản lý công việc của bạn nếu cần.</p>
+        </div>
+    </div>
+</div>
+    <div class="a10">
+        <img class="a10-1" src="/giaodienchualogin/s2.png" alt="" />
+        <img class="a10-1" src="/giaodienchualogin/s3.png" alt="" />
+        <img class="a10-1" src="/giaodienchualogin/s3.png" alt="" />
+        <img class="a10-1" src="/giaodienchualogin/s4.png" alt="" />
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<?php
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) . '/ketnoi/footer.php');
+?>
+</body>
+</html>

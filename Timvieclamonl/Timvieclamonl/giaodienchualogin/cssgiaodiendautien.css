@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.signup-btn {
+    background-color: #f39c12;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-color: #34495e;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+.adande {
+    display:flex;
+    font-size: 15px;
+    gap:10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.adande div {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Khoảng cách giữa icon và text */
+}
+
+/* Định dạng ban đầu cho các liên kết */
+.adande a.t {
+    color: white; /* Màu mặc định của text */
+    text-decoration: none; /* Bỏ gạch chân */
+    font-size: 16px; /* Cỡ chữ */
+}
+
+/* Định dạng ban đầu cho các icon */
+.adande i {
+    color: white; /* Màu mặc định của icon */
+    font-size: 14px; /* Cỡ icon */
+}
+.ahovericon:hover a, .ahovericon:hover i {
+    color: #29b2fe; /* Màu sẽ đổi thành xanh khi hover */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển màu mượt */
+}
+
+.ahovericon {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none; /* Ẩn danh sách mặc định */
+    position: absolute; /* Vị trí tuyệt đối */
+    background-color: #12151b; /* Màu nền */
+    z-index: 2; /* Đảm bảo nằm trên các phần tử khác */
+    margin-top: 190px; /* Khoảng cách từ phần tử cha */
+    width: 500px; /* Đặt chiều rộng cố định */
+    max-height: 500px; /* Chiều cao tối đa */
+    overflow-y: auto; /* Cuộn dọc nếu nội dung quá dài */
+}
+
+.ahovericon:hover .dropdown {
+    display: block; /* Hiển thị khi hover */
+}
+
+.dropdown li {
+    list-style: none; /* Xóa dấu đầu dòng */
+    margin-top: 20px; /* Khoảng cách giữa các mục */
+    padding: 10px; /* Thêm padding để dễ nhấp */
+}
+
+.dropdown li a {
+    text-decoration: none; /* Xóa gạch chân */
+    color: #f0f0f0; /* Màu chữ */
+    display: block; /* Để liên kết chiếm toàn bộ chiều rộng */
+}
+
+.dropdown li:hover {
+    background-color: #20262f ;/* Màu nền khi hover */
+    color: #f0f0f0; /* Màu chữ */
+}
+.submenu {
+    display: none; /* Ẩn mặc định */
+    position: absolute; /* Vị trí tuyệt đối */
+    background-color: #12151b; /* Màu nền của menu con */
+    z-index: 2; /* Đảm bảo nằm trên các phần tử khác */
+    margin-left: 10px; /* Khoảng cách giữa menu chính và menu con */
+    padding: 10px; /* Padding cho menu con */
+    border-radius: 5px; /* Bo góc cho menu con */
+}
+
+/* Styles for the custom div */
+#custom-box {
+    width: 300px; /* Chiều rộng của khung */
+    height: 200px; /* Chiều cao của khung */
+    background-color: #fff; /* Màu nền */
+    border: 1px solid #ccc; /* Viền */
+    position: absolute;
+    left: 260px; /* Vị trí bên cạnh dropdown */
+    top: 130px; /* Căn chỉnh theo dropdown */
+    display: none; /* Mặc định ẩn */
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.nav-links a:hover{
+    color: #29b2fe; /* Màu sẽ đổi thành xanh khi hover */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển màu mượt */
+}
+.t{
+    color: white;
+    text-decoration: none;
+}
+.adanluc {
+    display:flex;
+}
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-bar input {
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #e67e22;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.adau1 {
+    max-width: 700px;
+    margin-left: 30px;
+}
+.adau1-1{
+    color:rgb(84, 135, 181);
+    font-size: 50px;
+}
+.adau1-2{
+    color:rgb(247, 248, 250);
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 2;
+    margin-left: 50px;
+}
+.btn {
+    background-color: #fff; /* Màu nền trắng */
+    color: #000; /* Màu chữ đen */
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi mượt */
+  }
+  
+  .pink {
+    background-color: #ff69b4; /* Màu hồng */
+  }
+  .btn:hover {
+    transform: scale(1.1); /* Phóng lên 10% */
+}
+
+.a2 {
+    background-color: #3498db; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo góc */
+    padding: 10px 12px; /* Padding cho nút */
+    font-size: 16px; /* Cỡ chữ */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu và phóng to */
+    margin-left: 10px;
+}
+
+.a2:hover {
+    background-color: #2980b9; /* Màu nền khi hover */
+    transform: scale(1.05); /* Phóng to một chút khi hover */
+}
+
+.a2:active {
+    transform: scale(0.95); /* Nhấn nút sẽ thu nhỏ lại */
+}
+.a3 {
+    position: relative;
+}
+
+.a3 img {
+    width: 100%;
+    height: auto;
+}
+
+.a3-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+.a3-2{
+    color:#29b2fe;
+    font-size: 50px;
+    display: block; 
+}
+.a3-3 {
+    color:#f0f0f0;
+    font-size: 50px;
+}
+.a3-5 {
+    color:#f0f0f0;
+    font-size: 30px;
+}
+.a3-6 {
+    color:#f0f0f0;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.a3-4 {
+    width:300px;
+    height:120px;
+    margin-top: 30px;
+}
+.a3-7 {
+    display:flex;
+    gap:40px;
+}
+.a3-8 {
+    display:flex;
+    gap:40px;
+    margin-top: 40px;
+}
+.a9{
+    background-color: #000;
+}
+.a3-9 {
+    display:flex;
+    gap:40px;
+    margin-top: 60px;
+}
+.a10 {
+    width: 300px;
+    height: 40px;
+}
+.a11 img {
+    height: 400px; /* Chiều cao muốn hiển thị */
+    overflow: hidden; /* Ẩn phần thừa của ảnh */
+}
+.a12 {
+    display:flex;
+    gap:30px;
+}
+.a10-1 img{
+    padding-bottom: 10px;
+}
